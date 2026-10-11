@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
+add_definitions(-DGTEST_HAS_TR1_TUPLE=0)
 
 set(PROJECT_NAME set)
 project(${PROJECT_NAME})
